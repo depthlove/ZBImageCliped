@@ -15,6 +15,7 @@
 		B67E85C31D7D051100CF9988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67E85C11D7D051100CF9988 /* LaunchScreen.storyboard */; };
 		B67E85CE1D7D051100CF9988 /* customImageCroppingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B67E85CD1D7D051100CF9988 /* customImageCroppingTests.m */; };
 		B67E85D91D7D051100CF9988 /* customImageCroppingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B67E85D81D7D051100CF9988 /* customImageCroppingUITests.m */; };
+		B67E85EB1D7D510200CF9988 /* ZBImageCliped.m in Sources */ = {isa = PBXBuildFile; fileRef = B67E85EA1D7D510200CF9988 /* ZBImageCliped.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B67E85D41D7D051100CF9988 /* customImageCroppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customImageCroppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67E85D81D7D051100CF9988 /* customImageCroppingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customImageCroppingUITests.m; sourceTree = "<group>"; };
 		B67E85DA1D7D051100CF9988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B67E85E91D7D510200CF9988 /* ZBImageCliped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBImageCliped.h; sourceTree = "<group>"; };
+		B67E85EA1D7D510200CF9988 /* ZBImageCliped.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBImageCliped.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B67E85B71D7D051100CF9988 /* AppDelegate.m */,
 				B67E85B91D7D051100CF9988 /* ViewController.h */,
 				B67E85BA1D7D051100CF9988 /* ViewController.m */,
+				B67E85E91D7D510200CF9988 /* ZBImageCliped.h */,
+				B67E85EA1D7D510200CF9988 /* ZBImageCliped.m */,
 				B67E85BC1D7D051100CF9988 /* Main.storyboard */,
 				B67E85BF1D7D051100CF9988 /* Assets.xcassets */,
 				B67E85C11D7D051100CF9988 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				B67E85BB1D7D051100CF9988 /* ViewController.m in Sources */,
 				B67E85B81D7D051100CF9988 /* AppDelegate.m in Sources */,
+				B67E85EB1D7D510200CF9988 /* ZBImageCliped.m in Sources */,
 				B67E85B51D7D051100CF9988 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				B67E85DF1D7D051100CF9988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B67E85E01D7D051100CF9988 /* Build configuration list for PBXNativeTarget "customImageCroppingTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				B67E85E21D7D051100CF9988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B67E85E31D7D051100CF9988 /* Build configuration list for PBXNativeTarget "customImageCroppingUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				B67E85E51D7D051100CF9988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
